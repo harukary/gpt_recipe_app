@@ -1,0 +1,1 @@
+pip freeze >> requiments_all.txt
