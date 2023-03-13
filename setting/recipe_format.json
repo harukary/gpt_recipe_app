@@ -1,0 +1,30 @@
+{
+    "name": "レシピ名",
+    "description": "レシピの説明",
+    "image": "レシピ画像URL",
+    "cooking_time": "調理時間",
+    "dish_types": ["主菜・副菜などの種類"],
+    "cuisine_types": ["料理の国籍・地域"],
+    "nutrition": {
+        "calorie": 0,
+        "protein": 0.0,
+        "lipid": 0.0,
+        "carbohydrate": 0.0,
+        "sugar": 0.0,
+        "dietary_fiber": 0.0,
+        "salt": 0.0
+    },
+    "appliances": [
+        "調理器具"
+    ],
+    "ingredients": [
+        {
+            "name": "材料名",
+            "amount": "分量表記",
+            "g": 0
+        }
+    ],
+    "steps": [
+        "手順の説明"
+    ]
+}

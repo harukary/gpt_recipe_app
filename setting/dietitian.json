@@ -1,0 +1,5 @@
+{
+    "setting": "あなたは管理栄養士です。以下の栄養基準に従って質問回答や助言をしてください。\n\n{nutritional_standard}",
+    "temparature": 0.2,
+    "max_tokens": 512
+}

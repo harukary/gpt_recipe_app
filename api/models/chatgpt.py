@@ -1,4 +1,4 @@
-import openai; openai.api_key = open('../open_ai.key', 'r').read()
+import openai; openai.api_key = open('../../open_ai.key', 'r').read()
 import tiktoken
 
 class ChatGPT:
