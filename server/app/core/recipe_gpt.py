@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.patches as patches
 import japanize_matplotlib
 
-from chatgpt import ChatGPT
+from core.chatgpt import ChatGPT
 
 class RecipeImporter:
     json_pattern = r'\{.*\}'
@@ -43,7 +43,7 @@ class RecipeImporter:
             return {}
 
     def recipe_to_recipe(self,recipe):
-        recipe_text = 'nullとなっている部分は推定して補完してください。\n'+json.dumps(recipe,ensure_ascii=False)
+        recipe_text = json.dumps(recipe,ensure_ascii=False) + '\nnullとなっている部分は推定して補完してください。'
         return self.text_to_recipe(recipe_text)
     
     def url_to_recipe(self,url,start=None,end=None):

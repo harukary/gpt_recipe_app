@@ -1,4 +1,5 @@
 .venv/
 *.key
 *.db
+*.pyc
 Pipfile*

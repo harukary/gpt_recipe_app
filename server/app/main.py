@@ -1,12 +1,10 @@
 from fastapi import FastAPI
 
-from api.routers import users, recipes, calendar
+from api.gpt import router as recipe_gpt
 
 def create_app() -> FastAPI:
     app = FastAPI()
-    app.include_router(users.router)
-    # app.include_router(recipes.router)
-    # app.include_router(calendar.router)
+    app.include_router(recipe_gpt)
     return app
 
 app = create_app()
