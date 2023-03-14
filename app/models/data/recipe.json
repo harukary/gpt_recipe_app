@@ -1,0 +1,42 @@
+{
+    "id": "00000000",
+    "name": "レシピ名",
+    "description": "説明",
+    "image": "画像URL",
+    "cooking_time": 0,
+    "dish_type": ["料理の種類"],
+    "cuisine": ["料理の国籍・地域"],
+    "tags": [
+        "タグ1",
+        "タグ2",
+        "..."
+    ],
+    "nutrition": {
+        "calorie": 0,
+        "protein": 0.0,
+        "fat": 0.0,
+        "carbohydrate": 0.0,
+        "salt": 0.0,
+        "sugar": 0.0,
+        "dietary_fiber": 0.0
+    },
+    "ingredients": [
+        {
+            "id": "00000000",
+            "name": "材料名",
+            "amount": "分量表記",
+            "g": 0
+        },
+        {
+            "id": "00000000",
+            "name": "材料名",
+            "amount": "分量表記",
+            "g": 0
+        }
+    ],
+    "instructions": [
+        "手順1",
+        "手順2",
+        "..."
+    ]
+}
